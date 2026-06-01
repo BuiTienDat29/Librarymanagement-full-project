@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mvn spring-boot:run)",
+      "Bash(Select-Object -First 50)",
+      "Bash(mvn clean *)",
+      "Bash(java *)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill *)",
+      "Bash(npm run *)",
+      "Bash(Set-Location \"C:\\\\BTL\\\\library-full-project\\\\library-frontend\")",
+      "PowerShell(Get-Command *)",
+      "PowerShell(& \"C:\\\\Program Files\\\\MySQL\\\\MySQL Server 8.0\\\\bin\\\\mysql.exe\" -u root -p12345678 -e \"SHOW DATABASES;\" 2>$null)",
+      "PowerShell(& \"C:\\\\Program Files\\\\MySQL\\\\MySQL Server 8.0\\\\bin\\\\mysql.exe\" -u root -p12345678 library_db -e \"SELECT username, email, role_id FROM users;\" 2>$null)",
+      "PowerShell(& \"C:\\\\Program Files\\\\MySQL\\\\MySQL Server 8.0\\\\bin\\\\mysql.exe\" -u root -p12345678 library_db -e \"SELECT id, name FROM roles;\" 2>$null)",
+      "PowerShell(& \"C:\\\\Program Files\\\\MySQL\\\\MySQL Server 8.0\\\\bin\\\\mysql.exe\" -u root -p12345678 library_db -e \"SELECT username, LEFT\\(password, 20\\) as pwd_prefix FROM users WHERE username='admin';\" 2>$null)",
+      "PowerShell(& \"C:\\\\Program Files\\\\MySQL\\\\MySQL Server 8.0\\\\bin\\\\mysql.exe\" -u root -p12345678 library_db -e \"SELECT username, is_active FROM users;\" 2>$null)",
+      "PowerShell(Get-NetTCPConnection *)",
+      "PowerShell(Test-NetConnection *)",
+      "Bash(Remove-Item *)",
+      "Bash(Test-NetConnection -ComputerName localhost -Port 8080 -WarningAction SilentlyContinue)",
+      "Bash(Select-Object TcpTestSucceeded)"
+    ]
+  }
+}
