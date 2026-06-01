@@ -282,19 +282,23 @@ Category
 
 ## Trang đăng nhập
 
-> Thêm ảnh login tại đây
+<img width="1907" height="877" alt="image" src="https://github.com/user-attachments/assets/8c90bd59-08a1-4b5d-b5ec-ef6485019f78" />
+
 
 ## Dashboard Admin
 
-> Thêm ảnh dashboard tại đây
+<img width="1902" height="877" alt="image" src="https://github.com/user-attachments/assets/c06a14c5-e7b8-4ce5-9c13-bf6a8c9784bd" />
+
 
 ## Quản lý sách
 
-> Thêm ảnh quản lý sách tại đây
+![Uploading image.png…]()
+
 
 ## Mượn / Trả sách
 
-> Thêm ảnh chức năng mượn trả sách tại đây
+![Uploading image.png…]()
+
 
 ---
 
